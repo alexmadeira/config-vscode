@@ -44,6 +44,9 @@
 - Rocketseat React Native
 - Rocketseat ReactJS
 - vscode-styled-components
+- Better Comments
+- Rainbow Brackets
+
 
 ### GitConfig
 
