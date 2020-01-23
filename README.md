@@ -47,6 +47,31 @@
 - Better Comments
 - Rainbow Brackets
 
+### Snippets
+
+```json
+
+{
+	"Create Storybook Story": {
+		"scope": "javascript, javascriptreact",
+		"prefix": "story",
+		"body": [
+			"import React from 'react'",
+			"import { storiesOf } from '@storybook/react'",
+			"import $1 from './$2'",
+			" ",
+			"storiesOf('$3|$1', module)",
+			".add('$1', () => <$1 />)",
+			" ",
+		],
+		"description": "Create Story"
+	}
+}
+
+```
+____
+
+# GIT 
 
 ### GitConfig
 
