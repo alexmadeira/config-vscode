@@ -5,47 +5,78 @@
 ```json
 {
   "workbench.colorTheme": "Dracula",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 24,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  
   "editor.rulers": [
     80,
     120
   ],
+
   "editor.renderLineHighlight": "gutter",
-  "editor.formatOnSave": true,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.shell.osx": "/bin/zsh",
+
+  "terminal.integrated.fontSize": 12,
+
   "workbench.iconTheme": "material-icon-theme",
-  "explorer.confirmDelete": false,
   "editor.minimap.enabled": false,
-  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
   "git.confirmSync": false,
-  "window.zoomLevel": -1,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "liveServer.settings.donotShowInfoMsg": true
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "workbench.statusBar.visible": true,
+  "eslint.format.enable": true,
+ 
+  "importCost.smallPackageSize": 50,
+  "importCost.mediumPackageSize": 100,
+  "importCost.smallPackageColor": "#7cc36e",
+  "importCost.mediumPackageColor": "#7cc36e",
+  "importCost.largePackageColor": "#d44e40",
+  "importCost.typescriptExtensions": [
+    "\\.tsx?$"
+  ],
+  "importCost.javascriptExtensions": [
+    "\\.jsx?$"
+  ],
+  "importCost.bundleSizeDecoration": "gzipped",
+  "importCost.showCalculatingDecoration": true,
+  "importCost.debug": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "color-highlight.markerType": "underline",
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.3)",
+    "rgba(16,16,16,0.6)",
+    "rgba(16,16,16,0.4)",
+    "rgba(16,16,16,0.2)",
+  ]
 }
 ```
 
 ### Extensions 
-
+- Better Comments
+- Rainbow Brackets
 - Color Highlight
 - DotENV
 - Dracula Official
 - EditorConfig for VS Code
 - ESLint
 - Import Cost
+- indent-rainbow
 - Live Server
 - Material Icon Theme
 - Prettier - Code formatter
+- Rainbow Brackets
 - Rocketseat React Native
 - Rocketseat ReactJS
 - vscode-styled-components
-- Better Comments
-- Rainbow Brackets
 
 ### Snippets
 
