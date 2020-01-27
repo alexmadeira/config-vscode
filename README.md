@@ -73,7 +73,6 @@
 - Live Server
 - Material Icon Theme
 - Prettier - Code formatter
-- Rainbow Brackets
 - Rocketseat React Native
 - Rocketseat ReactJS
 - vscode-styled-components
